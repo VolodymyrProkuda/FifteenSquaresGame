@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     9,11,14,13,
     15,1,8,2)
     var numberToUse = 0
+    var nnn = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         showAllNumbersSquares()
 
-
+        nnn++
 
 
         binding.imageView4.setOnClickListener {    tryToChangeNumber(0) }
